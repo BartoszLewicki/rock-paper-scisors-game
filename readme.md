@@ -1,3 +1,3 @@
-simple rock paper scisors application
+# rock paper scisors game
 
 not done yet    
