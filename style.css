@@ -1,0 +1,91 @@
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 1.5rem;
+}
+
+h2{
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+
+.info{
+    text-align: center;
+}
+
+.content-container{
+    width: 60rem;
+    height: 22rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 20rem;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.7);
+}
+
+
+.restart{
+    width: 8rem;
+    height: 4rem;
+    margin: 1rem 0;
+    background-color: rgba(59, 137, 201, 0.795);
+    box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rock{
+background-image: url("rock.jpg");
+}
+
+.paper{
+background-image: url("paper.jpg");
+}
+
+.scisors{
+background-image: url("scisors.jpg");
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: space-between;
+    width: 55rem;
+    height: 4rem;
+    margin: 5rem auto 0 auto;
+
+}
+
+.button{
+    width: 12rem;
+    height: inherit;
+    background-color: rgba(59, 137, 201, 0.795);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.7);
+}
+
+.button:hover{
+    transform: scale(108%);
+    transition-duration: 0.3s;
+}
