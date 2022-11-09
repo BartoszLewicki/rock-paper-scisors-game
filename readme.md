@@ -1,3 +1,3 @@
 # rock paper scisors game
 
-not done yet    
+simple web aplication still in development
